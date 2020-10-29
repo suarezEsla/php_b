@@ -1,0 +1,55 @@
+<!-- 4. Elaborar el  formulario siguiente (04. html) y procesar los datos enviados que un script php (04.php) 
+que muestres los valores recibidos según el siguiente formato(formulario): -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="text-align: center;">
+        <form name="formulario" action="04.php" method="get">
+            <fieldset>
+                <legend>Campos de texto:</legend>
+                Nombre:<input type="text" name="nombre" size="20"> Contraseña: <input type="text" name="pass" size="20">
+            </fieldset>
+            <fieldset>
+                <legend>Radio:</legend>
+                Rojo: <input type="radio" name="semaforo" value="Rojo"> Amarillo: <input type="radio" name="semaforo" value="Amarillo"> Verde: <input type="radio" name="semaforo" value="Verde">
+            </fieldset>
+            <fieldset>
+                <legend>Checkbox</legend>
+                Quiero recibir publicidad <input type="checkbox" name="publi">
+            </fieldset>
+            <fieldset>
+                <legend>Select</legend>
+                <select name="estudios">
+                    <option value="DAM">DAM</option>
+                    <option value="DAW">DAW</option>
+                    <option value="ASIR">ASIR</option>
+                  </select>
+                <legend>Select Múltiple</legend>
+                <select multiple name="equipo">
+                <option>Real Madrid</option>
+                <option>Barcelona</option>
+                <option>Atleti</option>
+                <option>Rayo</option>
+            </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Botones</legend>
+                <input type="reset" name="reset">
+                <input type="submit" name="boton" value="Enviar">
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+<!-- 1. Elaborar programa (01.php) en php que procese un formulario (01.html) 
+que solicita al usuario un nombre y una clave. El programa php tendrá un array
+ asociativo con 3 pares de valores de usuario => contraseña . 
+  Se comprobará consultando la tabla si los datos son válidos, 
+  en este caso se debe mostrar un mensaje de bienvenida con nombre introducido , 
+  en otro caso se mostrar un mensaje de error para que usuario pueda volver a introducir nuevos datos. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios 01</title>
+</head>
+
+<body>
+    <form name="formulario" action="01.php" method="get" style="text-align: center;">
+        <fieldset>
+
+            <legend> Introduzca sus datos para acceder Usuario</legend>
+
+            <input type="text" name="nombre"> Clave
+            <input type="password" name="pass">
+            <input type="submit" name="boton" value="Enviar">
+            <!-- <input type="button" name="back" onclick="window.history.back()" value="volver"> -->
+        </fieldset>
+
+
+
+    </form>
+
+</body>
+
+</html>

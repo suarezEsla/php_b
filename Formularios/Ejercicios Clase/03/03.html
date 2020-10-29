@@ -1,0 +1,31 @@
+<!-- 3- Crear el fichero 03.html donde se defina un formulario que incluya diversos controles html 5 y 
+que sea procesado por el archivo 03.php 
+que mostrará mediante la función print_r($_REQUEST) 
+y var_dump($_REQUEST);la lista de todos los valores recibidos. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios 03</title>
+</head>
+
+<body>
+    <form name="formulario" action="03.php" method="GET" style="text-align: center;">
+        <fieldset>
+            <legend>Introduzca sus datos</legend>
+            Nombre: <input type="text" name="nombre" size="20"><br> Apellidos:
+            <input type="text" name="apellido" size="20"><br> e-mail:
+            <input type="email" name="mail" size="20"><br> Teléfono:
+            <input type="tel" name="telefono" size="20"><br>Color favorito:
+            <input type="color" name="color" size="10"><br>Fecha de nacimiento:
+            <input type="date" name="birth" size="20"><br>Página web:
+            <input type="url" name="url" size="30"><br>
+            <input type="submit" name="enviar" size="20">
+
+        </fieldset>
+    </form>
+</body>
+
+</html>

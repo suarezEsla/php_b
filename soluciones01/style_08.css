@@ -1,0 +1,12 @@
+#encabezado {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+}
+
+#contenedor {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: deeppink;
+}
+
+.tabla {
+    border-style: double;
+}

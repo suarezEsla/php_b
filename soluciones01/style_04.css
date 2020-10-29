@@ -1,0 +1,46 @@
+#encabezado {
+    text-align: center;
+}
+
+#contenedor {
+    text-align: center;
+}
+
+#horas {
+    justify-content: center;
+}
+
+#tabla {
+    text-align: center;
+    border-style: double;
+}
+
+tr,
+td {
+    border-style: double;
+}
+
+.cli {
+    background-color: #C9A0CA;
+}
+
+.serv {
+    background-color: #96DB98;
+}
+
+.ing {
+    background-color: #F2A9FF;
+}
+
+.inter {
+    background-color: #24C9CA;
+}
+
+.emp {
+    background-color: #FED231;
+}
+
+.rec {
+    background-color: #fffff;
+    color: #2E8F88;
+}
