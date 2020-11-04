@@ -29,10 +29,8 @@ y la letra almacenada en la posición indicada por el resto será la buscada.
         $indice=intval($_POST['dni'])%23;
         $letra=$letras[$indice];
         echo "La letra del $dni es $letra";
-     }else{
-         echo "$dni no es un número."
      }
-     
+    
 
 ?>
  </body>
