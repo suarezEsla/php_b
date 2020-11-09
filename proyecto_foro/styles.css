@@ -1,0 +1,23 @@
+form {
+    text-align: center;
+}
+
+.texto {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.caja {
+    background-color: #bec9d3;
+}
+
+.success {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: green;
+    text-align: center;
+}
+
+.error {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: red;
+    text-align: center;
+}
