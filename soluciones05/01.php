@@ -23,14 +23,14 @@ y la letra almacenada en la posición indicada por el resto será la buscada.
      </form>
      <?php
 
-     if (isset($_POST['enviar'])){
+     if ((isset($_POST['enviar']))&&is_numeric($_POST['dni'])){
         $letras='TRWAGMYFPDXBNJZSQVHLCKE';
         $dni=$_POST['dni'];
         $indice=intval($_POST['dni'])%23;
         $letra=$letras[$indice];
         echo "La letra del $dni es $letra";
      }
-     
+    
 
 ?>
  </body>
