@@ -4,6 +4,7 @@ function apostar(){
    
 if(isset($_REQUEST['cantidadUsuario'])){
     $cantApuesta=$_REQUEST['cantidadUsuario'];//Se lee la cantidad que ha introducido el usuario
+    
     echo "El usuario apuesta: ".$cantApuesta."<br>";
     $aleatorio=rand(1,100);//Se saca un número aleatorio
     echo "Número de la máquina: ".$aleatorio."<br>";
